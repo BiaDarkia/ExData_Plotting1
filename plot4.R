@@ -20,7 +20,7 @@ png("plot4.png")
 par(mfrow=c(2,2))
 
 plot(data$DateTime, data$Global_active_power, type = "l", xlab = "", 
-    ylab = "Global Active Power (kilowatts)")
+    ylab = "Global Active Power")
 
 plot(data$DateTime, data$Voltage, type = "l", xlab = "datetime", 
      ylab = "Voltage")
